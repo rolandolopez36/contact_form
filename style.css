@@ -1,0 +1,44 @@
+/* Styles for the body element */
+body {
+  font-family: Arial, sans-serif; /* Set the font for the body text */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  background-color: #f4f4f4; /* Set a light gray background color */
+  display: flex; /* Use flexbox layout for centering */
+  justify-content: center; /* Center the content horizontally */
+  align-items: center; /* Center the content vertically */
+  height: 100vh; /* Set the height to full viewport height */
+}
+
+/* Styles for the form element */
+form {
+  background-color: #fff; /* Set a white background color */
+  padding: 20px; /* Add padding inside the form */
+  border-radius: 8px; /* Round the corners of the form */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow to the form */
+}
+
+/* Styles for input fields and textarea elements */
+input,
+textarea {
+  width: 100%; /* Make input fields and textarea fill the width of the form */
+  padding: 10px; /* Add padding inside the input fields and textarea */
+  margin-bottom: 10px; /* Add space below each input field and textarea */
+  border: 1px solid #ccc; /* Set a light gray border around input fields and textarea */
+  border-radius: 4px; /* Round the corners of input fields and textarea */
+}
+
+/* Styles for the button element */
+button {
+  padding: 10px 15px; /* Add padding inside the button */
+  background-color: #28a745; /* Set a green background color for the button */
+  color: #fff; /* Set the text color to white */
+  border: none; /* Remove the default border */
+  border-radius: 4px; /* Round the corners of the button */
+  cursor: pointer; /* Change the cursor to a pointer when hovering over the button */
+}
+
+/* Hover effect for the button */
+button:hover {
+  background-color: #218838; /* Darken the button's background color on hover */
+}
