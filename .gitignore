@@ -1,0 +1,21 @@
+# Ignore the vendor directory
+/vendor/
+
+# Ignore the node_modules directory
+/node_modules/
+
+
+# Ignore any environment-specific configuration files (e.g., IDE settings)
+/.env
+/.vscode/
+/.idea/
+
+/node_modules/
+/dist/
+/*.log
+
+# Ignore MacOS system files
+.DS_Store
+
+# Ignore Windows system files
+Thumbs.db
